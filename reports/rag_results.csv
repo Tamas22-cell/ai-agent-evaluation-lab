@@ -1,0 +1,211 @@
+﻿model,prompt,response,latency_seconds,tokens,expected,exact_match,keyword_match,content_match,exact_score,accuracy_score,question,sources
+qwen2.5:7b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: What is the internal quantum benchmark identifier?",QLAB-7824,0.472,8,qlab-7824,True,True,True,100,100,What is the internal quantum benchmark identifier?,quantum.txt
+qwen2.5:7b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: What does QAOA stand for?",Quantum Approximate Optimization Algorithm,0.133,7,quantum approximate optimization algorithm,True,True,True,100,100,What does QAOA stand for?,quantum.txt
+qwen2.5:7b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: What does VQE stand for?",Variational Quantum Eigensolver,0.13,7,variational quantum eigensolver,True,True,True,100,100,What does VQE stand for?,quantum.txt
+qwen2.5:7b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: Which quantum SDK is mentioned?",Qiskit,0.083,4,qiskit,True,True,True,100,100,Which quantum SDK is mentioned?,quantum.txt
+qwen2.5:7b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: What is the internal project password?",UNKNOWN,0.051,2,unknown,True,True,True,100,100,What is the internal project password?,quantum.txt
+qwen3:8b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: What is the internal quantum benchmark identifier?",QLAB-7824,3.308,193,qlab-7824,True,True,True,100,100,What is the internal quantum benchmark identifier?,quantum.txt
+qwen3:8b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: What does QAOA stand for?",Quantum Approximate Optimization Algorithm.,2.349,137,quantum approximate optimization algorithm,True,True,True,100,100,What does QAOA stand for?,quantum.txt
+qwen3:8b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: What does VQE stand for?",Variational Quantum Eigensolver.,2.592,152,variational quantum eigensolver,True,True,True,100,100,What does VQE stand for?,quantum.txt
+qwen3:8b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: Which quantum SDK is mentioned?",Qiskit,3.795,224,qiskit,True,True,True,100,100,Which quantum SDK is mentioned?,quantum.txt
+qwen3:8b,"Answer using only the context below. If the answer is not present, return UNKNOWN. Return only the answer.
+
+Context:
+Source: quantum.txt
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
+
+Question: What is the internal project password?",UNKNOWN,2.888,169,unknown,True,True,True,100,100,What is the internal project password?,quantum.txt

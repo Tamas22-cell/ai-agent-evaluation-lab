@@ -1,0 +1,11 @@
+﻿model,prompt,response,latency_seconds,tokens,expected,exact_match,keyword_match,accuracy_score
+qwen2.5:7b,Calculate 125 * 48. Return only the answer.,6000,2.836,5,6000,True,True,100
+qwen2.5:7b,What is 2 to the power of 10? Return only the answer.,1024,0.103,5,1024,True,True,100
+qwen2.5:7b,What is the chemical symbol for gold? Return only the answer.,Au,0.055,2,au,True,True,100
+qwen2.5:7b,How many bits are in one byte? Return only the answer.,8,0.055,2,8,True,True,100
+qwen2.5:7b,What is the capital of Italy? Return only the answer.,Rome,0.07,3,rome,True,True,100
+qwen3:8b,Calculate 125 * 48. Return only the answer.,6000,17.56,817,6000,True,True,100
+qwen3:8b,What is 2 to the power of 10? Return only the answer.,1024,15.588,919,1024,True,True,100
+qwen3:8b,What is the chemical symbol for gold? Return only the answer.,Au,2.441,142,au,True,True,100
+qwen3:8b,How many bits are in one byte? Return only the answer.,8,3.072,181,8,True,True,100
+qwen3:8b,What is the capital of Italy? Return only the answer.,Rome,2.677,158,rome,True,True,100

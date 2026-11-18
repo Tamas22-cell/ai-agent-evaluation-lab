@@ -1,0 +1,11 @@
+﻿model,prompt,expected,success,tool_score,error
+qwen2.5:7b,Use the multiply tool to calculate 125 * 48.,6000,True,100,
+qwen2.5:7b,Use the multiply tool to calculate 25 * 16.,400,True,100,
+qwen2.5:7b,Use the multiply tool to calculate 99 * 12.,1188,True,100,
+qwen2.5:7b,Use the multiply tool to calculate 250 * 40.,10000,True,100,
+qwen2.5:7b,Use the multiply tool to calculate 17 * 23.,391,True,100,
+qwen3:8b,Use the multiply tool to calculate 125 * 48.,6000,True,100,
+qwen3:8b,Use the multiply tool to calculate 25 * 16.,400,True,100,
+qwen3:8b,Use the multiply tool to calculate 99 * 12.,1188,True,100,
+qwen3:8b,Use the multiply tool to calculate 250 * 40.,10000,True,100,
+qwen3:8b,Use the multiply tool to calculate 17 * 23.,391,True,100,

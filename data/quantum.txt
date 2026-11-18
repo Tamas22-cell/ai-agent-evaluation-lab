@@ -1,0 +1,15 @@
+Quantum computing uses qubits instead of classical bits.
+
+Qubits can exist in a superposition of quantum states.
+
+Grover's algorithm provides a quadratic speedup for unstructured search.
+
+Shor's algorithm is designed for integer factorization.
+
+QAOA stands for Quantum Approximate Optimization Algorithm.
+
+VQE stands for Variational Quantum Eigensolver.
+
+Qiskit is an open-source quantum computing SDK.
+
+The internal quantum benchmark identifier is QLAB-7824.
